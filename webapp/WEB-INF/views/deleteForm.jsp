@@ -17,7 +17,7 @@
 		<button type="submit">확인</button>
 	</form>
 	
-	<a href="${pageContext.request.contextPath }/gb/list">메인을 돌아가기</a>
+	<a href="${pageContext.request.contextPath }/gb/list">메인으로 돌아가기</a>
 	
 </body>
 </html>

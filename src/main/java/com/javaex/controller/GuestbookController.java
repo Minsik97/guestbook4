@@ -53,7 +53,6 @@ public class GuestbookController {
 	public String delete(@RequestParam("no") int no, @RequestParam("password") String pw) {
 		System.out.println("삭제");
 
-
 		int ex = guestbookDao.gbDelete(no, pw);
 
 		if (ex == 1) { // 삭제 성공

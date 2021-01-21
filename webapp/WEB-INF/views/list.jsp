@@ -12,7 +12,7 @@
 <body>
 		<h1>등록해 주세요</h1>
 		
-		<form action="/guestbook4/gb/add" method="post">
+		<form action="${pageContext.request.contextPath }/gb/add" method="post">
 		<table border="3" >
 			<tr>													<!-- 값이 없어도 value는 써야함 -->
 				<td bgcolor="EEEEEE" align="center" >이름</td>
